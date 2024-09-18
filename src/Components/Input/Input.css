@@ -1,0 +1,17 @@
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  height: 40px;
+  background: transparent;
+  outline: none;
+  font-size: 16px;
+}
+
+.input:hover {
+  border-color: #6495ed;
+}
+
+.input:focus {
+    border-bottom: 1px solid #6495ed;
+  }

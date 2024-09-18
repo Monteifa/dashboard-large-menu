@@ -1,64 +1,36 @@
-# Qikserve's Dashboard Menu challenge
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This challenge consists of building a react application to allow managers managing a menu in a restaurant.
-Of course, we are gonna build limited features as a whole dashboard would take too much time :D
+## Getting Started
 
-Restaurant Data should be consumed from the provided json below. Do not mock the json's, fetch the data from url below.
-[https://cdn-dev.preoday.com/senior-fe-menu-challenge.json](https://cdn-dev.preoday.com/senior-fe-menu-challenge.json)
+First, run the development server:
 
-
-## Deliveries
-- Please deploy the solution in a shared URL so i can see the results without needing to run.
-- Please fork this repository on your account and invite ronaldo.zanoni@qikserve.com, felipe.loge@qikserve.com and caio.ricci@qikserve.com.
-
-
-
-## UI - Application
-
-I expect your application to be able to:
-- Render all items from URL above (I'm not expliciting how)
-- - Please don't use paginations. I don't to click on page to see its contents.
-- An item should be showing:
-- - Item name
-- - Item image (if available)
-- When hovering an item, i would like to see an "edit" button
-- Clicking on "edit" button, i would like to see the item's details on right side.
-- I don't expect to see lags in the application.
-
-An example of how it is in our platform currently:
-![MicrosoftTeams-image (118)](https://github.com/qsengineers/dashboard-large-menu/assets/134649881/57876e34-8d5b-44ff-b291-f08f780a303c)
-
-
-
-## Item example
-
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
-{
-        "id": 1529509,
-        "externalId": "5023377855405,1",
-        "name": "WECOMPJACKS MAGIC AP ",
-        "internalName": "WECOMPJACKS MAGIC AP ",
-        "description": "WE Comp Jacks Magic All Purpose 60L",
-        "deliveryFlag": 1,
-        "pickupFlag": 1,
-        "seatFlag": 0,
-        "price": 5.75,
-        "visible": 1,
-        "availabilityType": "AVAILABLE_NOW",
-        "sku": "I1529509",
-        "created": "2020-03-26T14:30:43.000+0000",
-        "updated": "2020-11-11T18:59:15.000+0000",
-        "images": [
-            {
-                "id": 557839,
-                "itemId": 1529509,
-                "image": "/usr/venue/9043/menuItem/5e7cbfccc61d5.png",
-                "position": 0,
-                "created": "2020-03-26T14:44:29.000+0000",
-                "updated": "2020-03-26T14:44:29.000+0000"
-            }
-        ],
-        "availableForPublish": true,
-        "available": true
-    }
-```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
