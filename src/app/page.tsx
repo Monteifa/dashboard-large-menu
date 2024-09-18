@@ -58,6 +58,7 @@ const Home = () => {
                   data={data}
                   index={index}
                   style={style}
+                  selectedItem={selectedItem}
                   setSelectedItem={setSelectedItem}
                 />
               )}
